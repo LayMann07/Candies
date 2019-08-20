@@ -1,6 +1,6 @@
 //# Candies
 //Round D - Kick Start 2018
-
+// https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee1/00000000000510ef link to the problem
 
 
 #include<stdio.h>
