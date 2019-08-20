@@ -1,10 +1,11 @@
-# Candies
-Round D - Kick Start 2018
+//# Candies
+//Round D - Kick Start 2018
 
 
 
-#include<stdio.h>
+#include <stdio>
 int main()
+    
 {
     int T,N,O,x,y,A,B,C,L,M,p,BE,i,j,a,Y,ODD_TOT,TEMP;
     long long int D;
