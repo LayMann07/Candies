@@ -3,7 +3,7 @@
 
 
 
-#include <stdio.h>
+#include<stdio.h>
 int main()
     
 {
@@ -21,7 +21,7 @@ int main()
         X[2]=y;
            for(i=3;i<=N;i++)
         {
-            //printf("%d %d",X[i-1],X[i-2]);
+            
             Y=((X[i-1]*A) + (X[i-2]*B) + C);
             if(M>Y)
             {
@@ -82,24 +82,12 @@ int main()
         {
             printf("Case #%d:  ",p);
             printf("%d \n",BE+ODD_TOT);
-          /*  printf("%lli %d %d\n",D,BE,ODD_TOT);
-            for(i=1;i<=N;i++)
-            {
-                printf("%d  ",S[i]);
-            }printf("\n");
-        */}
+         
         else
         {
             printf("Case #%d:  ",p);
             printf("IMPOSSIBLE\n");
-           // printf("%lli %d %d\n",D,BE,ODD_TOT);
-            //for(i=1;i<=N;i++)
-            //{
-             //   printf("%d  ",S[i]);
-            //}printf("\n");
+           
         }    
-            
-     //printf("Case #%d:  ",p);
-       // printf("%d %d %lli %d %d %d %d %d \n",N,O,D,A,B,C,L,M);
     }
 }
